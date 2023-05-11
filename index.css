@@ -1,3 +1,44 @@
+#header img{
+    width: 80px;
+}
+.text-platzi{
+    color: #97c93e !important;
+}
+#main img{
+    max-height: 76vh;
+    object-fit:cover;
+    filter: grayscale(70%);
+}
+#carousel{
+    position: relative;
+}
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+.btn-platzi:hover{
+    background-color: #82ad36;
+    color: white;
+}
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.badge span{
+    padding: 6px;
+    font-size: 12px;
+}
+.card{
+    box-shadow: 1px 1px 8px 1px rgba(179, 178, 178, 0.25);
+}
+#place-time img{
+    max-width: 100%;
+}
 #footer{
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
