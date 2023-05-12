@@ -1,9 +1,11 @@
+
 #header img{
     width: 80px;
 }
 .text-platzi{
     color: #97c93e !important;
 }
+
 #main img{
     max-height: 76vh;
     object-fit:cover;
@@ -36,8 +38,14 @@
 .card{
     box-shadow: 1px 1px 8px 1px rgba(179, 178, 178, 0.25);
 }
-#place-time img{
-    max-width: 100%;
+.tooltip-inner{
+    background-color: #3662da;
+}
+
+#scroll-spy-container{
+    position: relative;
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
 }
 #footer{
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
